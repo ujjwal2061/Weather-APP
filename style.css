@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* style.css */
+
+/* Reset some default browser styles */
+
+/* Style the body */
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the main container */
+.main-container {
+    background-color: #5a3b3b;
+    background-image: url(back.gif);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    align-items:baseline;
+    box-shadow: 0 4px 8px rgba(57, 35, 35, 0.2);
+}
+/* Style the city name */
+.name {
+    color:black;
+    font-family: monospace;
+    font-size: 2em;
+    color:white
+}
+.place{
+    color:black;
+    font-size:1.3rem;
+    padding: 7px;
+}
+
+
+/* Style the date */
+#day {
+    font-family:monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:black;
+    margin-bottom: 20px;
+}
+
+/* Style the search input and button */
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search input[type="search"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 70%;
+    box-sizing: border-box;
+}
+::placeholder{
+    font-size: medium;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+
+.search .btn {
+    padding: 10px 15px;
+    font-size: 1em;
+    border: 1px solid ;
+    border-left: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search .btn:hover {
+    background-color: #0056b3;
+}
+.weather-container {
+    margin-top: 97%;
+    margin-left:30%;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+
+}
+
+#temp {
+    width: 70px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    font-weight: 600;
+    color: black;
+    margin-right: 20px;  /* Add margin to the right for spacing */
+}
+   
+
+
+.night-day {
+    padding: 10px; 
+    font-weight: 500;
+}
+
+.weather {
+    font-weight: 500;
+    padding: 6px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    color:black;
+    margin-top: 9px;
+    
+}
